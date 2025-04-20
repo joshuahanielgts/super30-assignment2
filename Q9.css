@@ -1,0 +1,9 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
