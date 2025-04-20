@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q8 - Form Validation</title>
+</head>
+<body>
+  <form>
+    <label>Name: <input type="text" required></label><br>
+    <label>Email: <input type="email" required></label><br>
+    <label>Password: <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></label><br>
+    <label><input type="radio" name="plan"> Basic</label>
+    <label><input type="radio" name="plan"> Premium</label><br>
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
